@@ -1,17 +1,8 @@
 function solution(food) {
     let answer = '';
-    let deployment = '';
-    
-    food.forEach((food,i)=>{
-        if(i===0) return;
-        deployment += String(i).repeat(food/2);
-    })
-    
-    answer+= deployment + '0';
-    deployment = deployment.split('').reverse().join('');
-    for(i of deployment){
-        answer += i
+    for(let i = 1; i<food.length; i++){
+        answer += String(i).repeat(Math.floor(food[i]/2));
     }
 
-    return answer;
+    return answer + '0' + [...answer].reverse().join('');
 }
