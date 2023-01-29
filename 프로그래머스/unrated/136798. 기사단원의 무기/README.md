@@ -1,10 +1,10 @@
 # [unrated] 기사단원의 무기 - 136798 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/136798) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/136798#) 
 
 ### 성능 요약
 
-메모리: 37.2 MB, 시간: 5.22 ms
+메모리: 37.3 MB, 시간: 5.37 ms
 
 ### 구분
 
