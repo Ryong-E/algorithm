@@ -1,2 +1,1 @@
-# algorithm
-Elice algorithm problem
+# Algorithm
